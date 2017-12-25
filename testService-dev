@@ -1,0 +1,7 @@
+#去除Json返回时的null值
+spring.jackson.default-property-inclusion=non_null
+spring.jackson.date-format=yyyy-MM-dd HH:mm:ss
+#数据库配置
+#spring.datasource.url=jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+spring.datasource.username=root
+spring.datasource.password=
